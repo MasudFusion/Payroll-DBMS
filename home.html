@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Employee Payroll Management System</title>
+</head>
+<body background="bgimage.jpg">
+<img src="PAYROLL_BANNER.jpg" alt="PAYROLL BANNER" style="width:1350px; height:150px;">
+<style>
+.center {
+    padding: 20px;
+	}
+input[type=text], input[type=password] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+button {
+    background-color: #FF69B4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+</style>
+<body>
+<h2 style="text-align:center;">Login as an Employee </h2>
+<form action="action_page.php">
+
+  <div class="container">
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required><br>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>   
+    <button type="submit" align="right" >Login</button>
+	<h3>Or Sign up Here</h3>
+  </div>
+</form>
+</body>
+</html>
